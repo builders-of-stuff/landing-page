@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Announcement } from '$lib/components/docs/index.js';
+  // import { Announcement } from '$lib/components/docs/index.js';
   import * as PageHeader from '$lib/components/docs/page-header/index.js';
   import { CardsNewYork } from '$lib/registry/new-york/example/cards/index.js';
 </script>
