@@ -2,8 +2,8 @@
   import {
     CommandMenu,
     Icons,
-    MainNav
-    // MobileNav
+    MainNav,
+    MobileNav
     // ModeToggle
   } from '$lib/components/docs/index.js';
   import { buttonVariants } from '$lib/registry/new-york/ui/button/index.js';
@@ -16,7 +16,7 @@
 >
   <div class="container flex h-14 max-w-screen-2xl items-center">
     <MainNav />
-    <!-- <MobileNav /> -->
+    <MobileNav />
     <div class="flex flex-1 items-center justify-between space-x-2 md:justify-end">
       <div class="w-full flex-1 md:w-auto md:flex-none">
         <CommandMenu />

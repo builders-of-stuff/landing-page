@@ -11,9 +11,8 @@
 </script>
 
 <Sheet.Root bind:open>
-  <Sheet.Trigger asChild let:builder>
+  <Sheet.Trigger>
     <Button
-      builders={[builder]}
       variant="ghost"
       class="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
     >
@@ -21,6 +20,7 @@
       <span class="sr-only">Toggle Menu</span>
     </Button>
   </Sheet.Trigger>
+
   <Sheet.Content side="left" class="pr-0">
     <MobileLink href="/" class="flex items-center" bind:open>
       <Icons.logo class="mr-2 h-4 w-4" />
