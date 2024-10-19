@@ -3,6 +3,7 @@
 </script>
 
 <div class="md:grids-col-2 grid md:gap-4 lg:grid-cols-10 xl:grid-cols-11 xl:gap-4">
+  <!-- 1st half -->
   <div class="space-y-4 lg:col-span-4 xl:col-span-6 xl:space-y-4">
     <CardsStats />
     <div class="grid gap-1 sm:grid-cols-[260px_1fr] md:hidden">
@@ -29,6 +30,8 @@
       </div>
     </div>
   </div>
+
+  <!-- 2nd half -->
   <div class="space-y-4 lg:col-span-6 xl:col-span-5 xl:space-y-4">
     <div class="hidden gap-1 sm:grid-cols-[260px_1fr] md:grid">
       <CardsStats />

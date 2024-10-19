@@ -25,6 +25,7 @@
     "autoprefixer": "^10.4.20",
     "bits-ui": "1.0.0-next.20",
     "clsx": "^2.1.1",
+    "cmdk-sv": "^0.0.18",
     "d3-scale": "^4.0.2",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
@@ -46,6 +47,7 @@
   },
   "type": "module",
   "dependencies": {
+    "mode-watcher": "^0.4.1",
     "phosphor-svelte": "^2.0.1",
     "svelte-headless-table": "^0.18.2",
     "svelte-radix": "^1.1.1"
