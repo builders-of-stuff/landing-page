@@ -2,4 +2,6 @@
   import '../app.css';
 </script>
 
-<slot></slot>
+<div class="relative flex min-h-screen flex-col bg-background" id="page">
+  <slot></slot>
+</div>
