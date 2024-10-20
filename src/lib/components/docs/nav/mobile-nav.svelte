@@ -30,13 +30,18 @@
       <div class="flex flex-col space-y-3">
         {#each docsConfig.mainNav as navItem, index (navItem + index.toString())}
           {#if navItem.href}
-            <MobileLink href={navItem.href} bind:open class="text-foreground">
+            <MobileLink
+              href={navItem.href}
+              target="_blank"
+              bind:open
+              class="text-foreground"
+            >
               {navItem.title}
             </MobileLink>
           {/if}
         {/each}
       </div>
-      <div class="flex flex-col space-y-2">
+      <!-- <div class="flex flex-col space-y-2">
         {#each docsConfig.sidebarNav as navItem, index (index)}
           <div class="flex flex-col space-y-3 pt-6">
             <h4 class="font-medium">{navItem.title}</h4>
@@ -58,7 +63,7 @@
             {/if}
           </div>
         {/each}
-      </div>
+      </div> -->
     </ScrollArea>
   </Sheet.Content>
 </Sheet.Root>

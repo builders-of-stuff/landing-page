@@ -1,15 +1,12 @@
 export const siteConfig = {
-	name: "shadcn-svelte",
-	url: "https://shadcn-svelte.com",
-	ogImage: "https://shadcn-svelte.com/og.png",
-	description: "Beautifully designed components built with Melt UI and Tailwind CSS.",
-	links: {
-		twitter: "https://twitter.com/huntabyte",
-		github: "https://github.com/huntabyte/shadcn-svelte",
-		shadTwitter: "https://twitter.com/shadcn",
-		shadGithub: "https://github.com/shadcn/ui",
-	},
-	keywords: `shadcn,Svelte,SvelteKit,Svelte Components,TailwindCSS,Melt UI,Bit UI`,
+  name: 'Builders of stuff',
+  url: 'https://buildersofstuff.com',
+  // description: 'Beautifully designed components built with Melt UI and Tailwind CSS.',
+  links: {
+    discord: 'https://discord.gg/UNjAMsccbG',
+    github: 'https://github.com/builders-of-stuff'
+  },
+  keywords: `Builders, stuff, Builders of stuff, Sui, web3, svelte`
 };
 
 export type SiteConfig = typeof siteConfig;
