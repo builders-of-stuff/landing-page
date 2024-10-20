@@ -15,7 +15,7 @@
     <PageHeader.Root>
       <PageHeader.Heading class="md:block">Builders of stuff</PageHeader.Heading>
       <!-- <PageHeader.Description balanced={false}>
-        Hand-picked themes that you can copy and paste into your apps.
+        (under construction)
       </PageHeader.Description> -->
     </PageHeader.Root>
   </div>
