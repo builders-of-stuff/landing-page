@@ -45,13 +45,13 @@ export const docsConfig: DocsConfig = {
       href: 'https://stately-axolotl-af08c8.netlify.app/',
       description: 'UI wrapper for chatGPT',
       external: true
-    },
-    {
-      title: 'Canvas site',
-      href: 'https://buildersofstuff.com',
-      description: 'Playing around with Canvas as UI',
-      external: true
     }
+    // {
+    //   title: 'Canvas site',
+    //   href: 'https://buildersofstuff.com',
+    //   description: 'Playing around with Canvas as UI',
+    //   external: true
+    // }
   ]
   // sidebarNav: [
   //   {
