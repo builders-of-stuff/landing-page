@@ -29,6 +29,12 @@ export const docsConfig: DocsConfig = {
       external: true
     },
     {
+      title: 'Suiprise',
+      href: 'https://suiprise.buildersofstuff.com',
+      description: 'Pick a random winner from a list using on-chain randomness',
+      external: true
+    },
+    {
       title: 'Walrus game (testnet)',
       href: 'https://github.com/builders-of-stuff/walrus-game',
       description: 'Cookie-clicker inspired game built as a Walrus site',
