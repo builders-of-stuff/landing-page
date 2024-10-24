@@ -67,6 +67,17 @@
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 
+        <!-- Blog -->
+        <NavigationMenu.Item>
+          <NavigationMenu.Link
+            class="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-muted hover:text-accent-foreground focus:bg-muted focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-muted/50 data-[state=open]:bg-muted/50"
+            href="https://blog.buildersofstuff.com"
+            target="_blank"
+          >
+            Blog
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
+
         <NavigationMenu.Indicator
           class="data-[state=visible]:animate-in data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:fade-in top-full z-[1] flex h-1.5 items-end justify-center overflow-hidden"
         >
@@ -83,15 +94,6 @@
     </NavigationMenu.Root>
 
     <!-- <a
-      href="/docs"
-      class={cn(
-        'transition-colors hover:text-foreground/80',
-        $page.url.pathname === '/docs' ? 'text-foreground' : 'text-foreground/60'
-      )}
-    >
-      Docs
-    </a>
-    <a
       href="/docs/components"
       class={cn(
         'transition-colors hover:text-foreground/80',

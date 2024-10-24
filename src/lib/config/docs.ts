@@ -11,12 +11,6 @@ type DocsConfig = {
 export const docsConfig: DocsConfig = {
   mainNav: [
     {
-      title: 'Blog',
-      href: 'https://blog.buildersofstuff.com',
-      description: 'Thoughts written down',
-      external: true
-    },
-    {
       title: 'Svelte Sui Wallet Adapter',
       href: 'https://github.com/builders-of-stuff/svelte-sui-wallet-adapter',
       description: 'Sui wallet adapter for Svelte',
