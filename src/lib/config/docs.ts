@@ -11,9 +11,15 @@ type DocsConfig = {
 export const docsConfig: DocsConfig = {
   mainNav: [
     {
-      title: 'Svelte Sui Wallet Adapter',
-      href: 'https://github.com/builders-of-stuff/svelte-sui-wallet-adapter',
-      description: 'Sui wallet adapter for Svelte',
+      title: 'Tuskpets (testnet)',
+      href: 'https://tuskpets.buildersofstuff.com',
+      description: 'Idle RPG POC',
+      external: true
+    },
+    {
+      title: 'Walrus game (testnet)',
+      href: 'https://github.com/builders-of-stuff/walrus-game',
+      description: 'Cookie-clicker inspired game built as a Walrus site',
       external: true
     },
     {
@@ -23,15 +29,9 @@ export const docsConfig: DocsConfig = {
       external: true
     },
     {
-      title: 'Suiprise',
-      href: 'https://suiprise.buildersofstuff.com',
-      description: 'Pick a random winner from a list using on-chain randomness',
-      external: true
-    },
-    {
-      title: 'Walrus game (testnet)',
-      href: 'https://github.com/builders-of-stuff/walrus-game',
-      description: 'Cookie-clicker inspired game built as a Walrus site',
+      title: 'Svelte Sui Wallet Adapter',
+      href: 'https://github.com/builders-of-stuff/svelte-sui-wallet-adapter',
+      description: 'Sui wallet adapter for Svelte',
       external: true
     },
     {
