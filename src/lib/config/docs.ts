@@ -25,7 +25,7 @@ export const docsConfig: DocsConfig = {
     {
       title: 'GM Sui',
       href: 'https://gm.buildersofstuff.com',
-      description: 'Github-like contribution graph of gm',
+      description: 'Github-like contribution graph of gm for 2024',
       external: true
     },
     {
@@ -37,7 +37,7 @@ export const docsConfig: DocsConfig = {
     {
       title: 'beepbooply',
       href: 'https://beepbooply.com',
-      description: 'Text-to-speech',
+      description: 'Text-to-speech SaaS',
       external: true
     },
     {
